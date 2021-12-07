@@ -2,7 +2,7 @@
 
 INSERT INTO animals (id, name, date_of_birth, escape_attempts, neutered, weight_kg)
 VALUES 
-	(1, 'hello', '2018-02-03', 0, TRUE, 4.3),
-  (2, 'vicky', '2021-02-03', 0, FALSE, 10.23),
-  (3, 'hero', '2019-02-12', 0, TRUE, 11.23),
-  (4, 'raad', '2020-02-02', 0, FALSE, 9.4);
+	(1, 'Agumon', '2020-02-03', 0, TRUE, 10.23),
+  (2, 'Gabumon', '2018-11-15', 2, TRUE, 8),
+  (3, 'Pikachu', '2019-02-12', 1, FALSE, 15.04),
+  (4, 'Devimon', '2017-05-12', 5, TRUE, 11);
