@@ -9,6 +9,9 @@ SELECT name FROM animals WHERE neutered = TRUE,
 SELECT name FROM animals WHERE name = 'Gabumon',
 SELECT name FROM animals WHERE weight_kg >= 10.4 AND weight_kg <= 17.3;
 
+ALTER TABLE animals 
+ADD COLUMN species VARCHAR(50);
+
 /* change species to unspecified and rollback */
 BEGIN;
 COMMIT;
